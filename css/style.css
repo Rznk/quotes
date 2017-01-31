@@ -1,0 +1,38 @@
+body {
+  padding-top: 200px;
+  
+}
+blockquote {
+  font-size: 1.2em; 
+  background: #f9f9f9;
+  border-left: 10px solid #002F2F;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #002F2F;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+.fa-twitter, .fa-repeat{
+   font-size: 2em !important;
+}
+#buttons {
+  margin-right: 25px;
+  float: right;
+}
+a{
+  color: inherit; 
+  text-decoration: inherit;
+}
+.jumbotron {
+  background-color: #E6E2AF;
+}
+.btn {
+  background-color: #A7A37E;
+  height: 50px;
+}
